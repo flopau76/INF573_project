@@ -26,10 +26,10 @@ autre:
 
 
 données:
-vidéo: https://www.youtube.com/watch?v=F7YqluAHnfY
-travel F: 9:33		travel face, plan côté, 2 gros plans
-travel H: 1:18:43	travel côté, travel gros plan face (gros plan coté et 2 zoom gratons)
-	1.18.43: vue d'ensemble
-	1.18.46: plan coté 1
-	1.18.51: plan coté 2
-	1.18.53: plan face 1
+* vidéo: https://www.youtube.com/watch?v=F7YqluAHnfY
+* travel F: 9:33		travel face, plan côté, 2 gros plans
+* travel H: 1:18:43	travel côté, travel gros plan face (gros plan coté et 2 zoom gratons)
+- 1.18.43: vue d'ensemble
+- 1.18.46: plan coté 1
+- 1.18.51: plan coté 2
+- 1.18.53: plan face 1
