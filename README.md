@@ -22,7 +22,7 @@ autre:
 * suivie mouvement grimpeur
 * score (prise tenue, bonus pour mouv supplémentaire)
 * clippage dégaine -> efficacité clippage
-* automatiser l'extraction plans
+* automatiser l'extraction plans. idée: détecter l'apparition et la disparition du chrono en bas à droite qui corrpond à la performance d'un grimpeur
 
 
 données:
