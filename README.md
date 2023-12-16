@@ -3,14 +3,14 @@
 ## Jupyter notebook
 The core of the project is contained in project_INF573.ipynb. It should be directly runable, after installation of the needed dependencies.
 
+## Colmap
+This folder is the workspace used with colmap. It contains the results of the SfM, especially the file project.ini corresponding to the project initialisation. Use the script contained in extract_video.ipynb to extract images from the adequate video (by default, /data/video/travel.mp4, see below)
+
 ## Data
 The original video is available on youtube at: https://www.youtube.com/watch?v=F7YqluAHnfY
 The folder data/ contains:
 * video/ : three extracts of the original video: one travelling along the route and two climbing performances
 * other/ : a folder with two photos from the wall and corresponding text files of extracted key-points (by hand generated)
-
-## Colmap
-This folder is the workspace used with colmap. It contains the results of the SfM, especially the file project.ini corresponding to the project initialisation. Use the script contained in extarct_video.ipynb to extract images from the adequate video (by default, /data/video/travel.mp4, see below)
 
 ## Objectif:
 reconstruire la voie:
