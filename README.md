@@ -1,35 +1,34 @@
-# INF573_project
+# INF573_project: lead climbing
 
-escalade difficulté:
+## Jupyter notebook
+The core of the project is contained in project_INF573.ipynb. It should be directly runable, after installation of the needed dependencies.
+
+## Data
+The original video is available on youtube at: https://www.youtube.com/watch?v=F7YqluAHnfY
+The folder data/ contains:
+* video/ : three extracts of the original video: one travelling along the route and two climbing performances
+* other/ : a folder with two photos from the wall and corresponding text files of extracted key-points (by hand generated)
+
+## Colmap
+This folder is the workspace used with colmap. It contains the results of the SfM, especially the file project.ini corresponding to the project initialisation. Use the script contained in extarct_video.ipynb to extract images from the adequate video (by default, /data/video/travel.mp4, see below)
 
 ## Objectif:
 reconstruire la voie:
 * en 2D: homographie entre les plans ou utilisation du travelling
 * en 3D: stereo (maths cf cours 6 ?) / structure from motion (logiciel colmap) -> mesh de triangulation (voir Pyvista library ?)
 
-pb reconstruction:
+problème de reconstruction:
 * peu de relief, MAIS info initiale: facettes planes
-* identification des facettes : pointage à la main / détection des lignes (Canny, pas très efficace)
+* identification des facettes : pointage à la main / détection des lignes (Canny pas très efficace)
 
 identification des prise: segmentation d’image  
-à compléter
 
-analyse mouvement:
+analyse du mouvement:
 * analyse squelette (biblio mediapipe)
 * reconstruction squelette sur l'image 2D/3D
 
-autre:
+pistes:
 * suivie mouvement grimpeur
 * score (prise tenue, bonus pour mouv supplémentaire)
 * clippage dégaine -> efficacité clippage
 * automatiser l'extraction plans. idée: détecter l'apparition et la disparition du chrono en bas à droite qui corrpond à la performance d'un grimpeur
-
-
-données:
-* vidéo: https://www.youtube.com/watch?v=F7YqluAHnfY
-* travel F: 9:33		travel face, plan côté, 2 gros plans
-* travel H: 1:18:43	travel côté, travel gros plan face (gros plan coté et 2 zoom gratons)
-- 1.18.43: vue d'ensemble
-- 1.18.46: plan coté 1
-- 1.18.51: plan coté 2
-- 1.18.53: plan face 1
